@@ -1,0 +1,42 @@
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.vision {
+  margin: 0.2rem 0;
+  font-style: italic;
+}
+
+.contact-info p {
+  margin: 0.2rem 0;
+}
+
+.social-icons {
+  margin-top: 0.3rem;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 0.3rem;
+  font-size: 1rem;
+}
+
+.footer-bottom {
+  margin-top: 0.3rem;
+  color: #aaa;
+}

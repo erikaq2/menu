@@ -1,0 +1,31 @@
+.main-container {
+  display: flex;
+  transition: margin-left 0.3s ease;
+  
+}
+
+.content {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+/* cuando el menú está abierto, empuja el contenido */
+.menu-open .content {
+  margin-left: 250px;
+}
+
+/* Asegúrate de que este contenedor esté separado del botón hamburguesa */
+.content {
+  flex-grow: 1;
+  padding: 2rem;
+  margin-left: 60px; /* deja espacio para el botón */
+}
+
+/* Cuando el menú está abierto, empujamos aún más el contenido */
+.menu-open .content {
+  margin-left: 250px;
+}
+
+.content {
+  padding-bottom: 80px; /* deja espacio para el footer */
+}
